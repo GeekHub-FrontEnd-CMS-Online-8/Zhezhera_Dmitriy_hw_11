@@ -1,0 +1,44 @@
+.header{
+  background-color: white;
+  position: absolute;
+  width: 100%;
+  z-index: 100;
+  &__container{
+    min-height: 65px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  &__nav{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__nav-link{
+    font-family: "Montserrat";
+    color: #aaaaaa;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 9px;
+    text-decoration: none;
+    &:hover{
+      color: #3e3d3d;
+      text-decoration: none;
+    }
+  }
+  &__socials{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    &-item-link{
+      margin-left: 5px;
+      color: #a4a4a4;
+      &:hover{
+        text-decoration: none;
+        color: #3e3d3d;
+      }
+    }
+  }
+}
